@@ -1,0 +1,29 @@
+{
+    "name": "abdurrahaman83/hotel",
+    "description": "Basic services for hotel booking application",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Abdurrahaman\\Hotel\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Abdur Rahaman",
+            "email": "abdur.babu83@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abdurrahaman\\Hotel\\HotelServiceProvider"
+            ]
+        }
+    }
+}
